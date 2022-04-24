@@ -50,7 +50,7 @@ showButton.onclick = function(){
         showButton.innerHTML = "Դիտել ավելի քիչ";
     }else{
         showPoints = 0;
-        document.querySelector("#gallery .galleryContainer").style.position = "relative"; document.querySelector("#gallery .galleryContainer").style.height = "500px";
+        document.querySelector("#gallery .galleryContainer").style.position = "relative"; document.querySelector("#gallery .galleryContainer").style.height = "800px";
         document.querySelector("#gallery .galleryContainer").style.boxShadow = "inset 0 -150px 50px -50px #fff";
         showButton.innerHTML = "Դիտել ավելին"
     }

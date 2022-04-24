@@ -354,7 +354,7 @@ header nav{
     width: 100%;
     height: 100vh;
 }
-.video-section video{ width: 100%; }
+.video-section video{ width: 100%;}
 .part2 img{ width: 200px; }
 .part2 .content{
     width: 40%;
@@ -391,6 +391,12 @@ header nav{
 }
 #gallery .hiddenDiv{ display: flex; }
 #gallery .galleryPart img{
+    width: 100%;
+    margin: 5px 0px;
+    z-index: -1;
+    border-radius: 10px;
+}
+#gallery .galleryPart video{
     width: 100%;
     margin: 5px 0px;
     z-index: -1;
@@ -458,8 +464,8 @@ header nav{
 /*--------------------------------- Footer ---------------------------*/
 footer{
     width: 100%;
-    background-image: url(../img/Pic\ 3.jpg);
-    background-size: 100%;
+    background: url(../img/Pic\ 3.jpg) fixed ;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
 footer .black{
@@ -494,6 +500,7 @@ footer i{ font-size: 25px;margin: 10px }
     .socialMedia{ justify-content: center; }
     #contact .contacts{ font-size: 17px; width: 98%; }
     #contact form{ width: 90%; }
+    footer{ background-size: auto 100vh;}
 }
 @media only screen and (max-width: 800px){
     #gallery .galleryPart{ width: 100%; margin: 0; }
