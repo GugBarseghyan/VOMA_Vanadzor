@@ -87,6 +87,7 @@ hr{
 .jumpToTop:hover{ background-color: #c03bb3; }
 .jumpToTop i{ color: white; font-size: 21px; }
 .jumpToTopChanged{ opacity: 1; }
+
 /*----------------- Header -------------------- */
 header{
     width: 100%;
@@ -165,6 +166,7 @@ header nav{
     color: white;
     transition: 0.4s;
 }
+
 /*-----------Mobile header */
 .header2{
     display: none;
@@ -187,8 +189,8 @@ header nav{
 .header2 .menuMobile a{ margin: 10px 20px; }
 .header2 .langs2 img{ width: 30px;  margin: 10px 0px; }
 .header2 i, .header2 a{ color: #333; cursor: pointer; }
-.header2 i:hover{ color: #14a726 }
-.header2 a:hover{ color: #14a726 }
+.header2 i:hover{ color: #0b8b1a }
+.header2 a:hover{ color: #0b8b1a }
 /* header after scroll */
 .changedheader{
     box-shadow: 0px 0px 5px #06560F;
@@ -198,6 +200,7 @@ header nav{
 }
 .changedheader img{ width: 70px; }
 .changedheader a{ font-size: 15px; color: #56124F; }
+.changedheader a:hover{ color: #0b8b1a; }
 .changedheader button{ font-size: 15px; }
 .changedheader .selectedLanguage img{ width: 20px; }
 .changedheader .ddButton i{ color: #56124F; }
@@ -210,10 +213,7 @@ header nav{
 }
 .changedheader2 img{ width: 80px; }
 .changedheader2 #MenuBarButton{ font-size: 20px; }
-@media only screen and (max-width: 800px){
-    header{ display: none; }
-    .header2{ display: flex; }
-}
+
 /*--------------------- Home ---------------------*/
 #home{
     width: 100%;
@@ -310,9 +310,7 @@ header nav{
     background-size: 100%;
     background-repeat: no-repeat;
 }
-@media only screen and (max-width: 1300px){
-    .slide1, .slide2, .slide3, .slide4, .slide5{ background-size: auto 100vh; }
-}
+
 /*--------------------- About ---------------------*/
 #about{ text-align: center; padding: 50px 0px; }
 #about h1{ font-size: 40px; }
@@ -368,6 +366,7 @@ header nav{
     display: inline-block;
     text-align: center;
 }
+
 /*--------------------------- Gallery --------------------------*/
 #gallery{ text-align: center; padding: 50px 0px; }
 #gallery h1{ font-size: 40px; }
@@ -407,6 +406,7 @@ header nav{
     color: #fff;
     transition: 0.4s;
 }
+
 /*--------------------------- Contact --------------------------*/
 #contact{ text-align: center;padding: 50px 0px; }
 #contact h1{font-size: 40px; }
@@ -461,6 +461,7 @@ header nav{
 }
 .socialMedia{ display: flex; }
 #contact .socialMedia i{ color: white; }
+
 /*--------------------------------- Footer ---------------------------*/
 footer{
     width: 100%;
@@ -481,6 +482,11 @@ footer .black{
     text-align: center;
 }
 footer i{ font-size: 25px;margin: 10px }
+
+/*--------------------------------- Responsive ---------------------------*/
+@media only screen and (max-width: 1300px){
+    .slide1, .slide2, .slide3, .slide4, .slide5{ background-size: auto 100vh; }
+}
 @media screen and (max-width: 1000px) {
     #MenuBarButton{ display: inline; }
     #MenuBar{ display: none; }
@@ -513,4 +519,6 @@ footer i{ font-size: 25px;margin: 10px }
     }
     .slider-frame{ display: none; }
     #home  .contentForMobile{ display: flex; }
+    header{ display: none; }
+    .header2{ display: flex; }
 }
