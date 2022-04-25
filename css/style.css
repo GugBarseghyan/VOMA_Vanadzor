@@ -245,15 +245,23 @@ header nav{
 }
 @-webkit-keyframes slide-animation{
     0%{right: 0%;}
-    10%{right: 0%;}
-    20%{right: 100%;}
-    30%{right: 200%;}
-    40%{right: 300%;}
-    50%{right: 400%;}
+    5%{right: 0%;}
+    11%{right: 100%;}
+    16%{right: 100%;}
+    22%{right: 200%;}
+    27%{right: 200%;}
+    33%{right: 300%;}
+    38%{right: 300%;}
+    44%{right: 400%;}
+    49%{right: 400%;}
+    55%{right: 400%;}
     60%{right: 300%;}
-    70%{right: 200%;}
-    80%{right: 100%;}
-    90%{right: 0%;}
+    66%{right: 300%;}
+    71%{right: 200%;}
+    77%{right: 200%;}
+    82%{right: 100%;}
+    88%{right: 100%;}
+    94%{right: 0%;}
     100%{right: 0%;}
 }
 .slide-images{
