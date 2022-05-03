@@ -87,6 +87,9 @@ hr{
 .jumpToTop:hover{ background-color: #c03bb3; }
 .jumpToTop i{ color: white; font-size: 21px; }
 .jumpToTopChanged{ opacity: 1; }
+tlp{ font-size: 12px;  margin: 10px;  font-weight: 600; }
+tlp a{ color: white; text-decoration: underline; }
+tlp a:hover{ color: yellow;  text-decoration: none; }
 
 /*----------------- Header -------------------- */
 header{
