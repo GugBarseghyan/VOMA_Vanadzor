@@ -418,9 +418,9 @@ header nav{
     transition: 0.4s;
 }
 
-/*--------------------------- Contact --------------------------*/
-#contact{ text-align: center;padding: 50px 0px; }
-#contact h1{font-size: 40px; }
+/*--------------------------- Contact/Support --------------------------*/
+#contact, #support{ text-align: center;padding: 50px 0px; }
+#contact h1, #support h1{font-size: 40px; }
 #contact .conContainer{
     display: flex;
     width: 100%;
@@ -472,6 +472,7 @@ header nav{
 }
 .socialMedia{ display: flex; }
 #contact .socialMedia i{ color: white; }
+#support p {font-size: 20px;}
 
 /*--------------------------------- Footer ---------------------------*/
 footer{
